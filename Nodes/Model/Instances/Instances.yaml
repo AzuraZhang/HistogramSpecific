@@ -1,0 +1,40 @@
+Name: Instances
+Id: g=d9ac153a8e636bde2606c73f205d3ccf
+Type: FolderType
+Children:
+- Name: Boiler1
+  Type: Boiler
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Boiler1"
+  - Name: Temp
+    Id: g=be41eae7ea3c2b01f7a0de1541c918f2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 75
+- Name: Boiler2
+  Type: Boiler
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Boiler2"
+  - Name: Temp
+    Id: g=02b8d2c2068e9a59172500b3eb5e9edd
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 75
+- Name: Boiler3
+  Type: Boiler
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Boiler3"
+  - Name: Temp
+    Id: g=c3671a4237944d86aa22291fa247a136
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 150

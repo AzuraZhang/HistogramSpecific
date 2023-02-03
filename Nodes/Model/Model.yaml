@@ -1,0 +1,27 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: BoilerInstance
+  Type: Boiler
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Boiler
+  Id: g=ef531f6cc642296adbd8550182c84a00
+  Supertype: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- File: Instances/Instances.yaml
